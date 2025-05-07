@@ -76,13 +76,13 @@
     <jacoco.version>0.8.11</jacoco.version>
     <java.version>23</java.version>
     <jaxb.version>2.3.1</jaxb.version>
-    <jjwt.version>0.9.1</jjwt.version>
+    <jjwt.version>0.12.4</jjwt.version>
     <jose4j.version>0.9.3</jose4j.version>
     <jquery.version>3.7.1</jquery.version>
     <jsoup.version>1.19.1</jsoup.version>
     <maven-compiler-plugin.version>3.14.0</maven-compiler-plugin.version>
     <maven-failsafe-plugin.version>3.5.2</maven-failsafe-plugin.version>
-    <maven-jar-plugin.version>3.1.2</maven-jar-plugin.version>
+    <maven-jar-plugin.version>3.2.0</maven-jar-plugin.version>
     <maven-javadoc-plugin.version>3.1.1</maven-javadoc-plugin.version>
     <maven-source-plugin.version>3.1.0</maven-source-plugin.version>
     <maven-surefire-plugin.version>3.5.3</maven-surefire-plugin.version>
@@ -162,7 +162,7 @@
       <dependency>
         <groupId>com.auth0</groupId>
         <artifactId>java-jwt</artifactId>
-        <version>4.5.0</version>
+        <version>4.2.1</version>
       </dependency>
       <dependency>
         <groupId>com.google.guava</groupId>
@@ -238,7 +238,7 @@
     <dependency>
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
-      <version>1.18.38</version>
+      <version>1.18.4</version>
       <scope>provided</scope>
       <optional>true</optional>
     </dependency>
